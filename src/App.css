@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 70px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #FCFDFD;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(3, 3, 3);
+  position: fixed;
+  top: 0;
+  padding-right: 20px;
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  border-bottom: 1px solid #eee;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.hidden {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .hidden {
+    display: none;
+  }
+}
